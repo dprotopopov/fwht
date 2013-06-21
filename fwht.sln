@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example", "example\example.vcxproj", "{A721B49E-10C4-4BDB-95C0-E7B6CAF6DB3C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60A1C0FE-CC39-4909-B287-A182C059CC7C} = {60A1C0FE-CC39-4909-B287-A182C059CC7C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "examplecuda", "examplecuda\examplecuda.vcxproj", "{90F8D0D0-8BEA-4C95-83C8-FB4FF3DE66F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60A1C0FE-CC39-4909-B287-A182C059CC7C} = {60A1C0FE-CC39-4909-B287-A182C059CC7C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fwhtlib", "fwhtlib\fwhtlib.vcxproj", "{60A1C0FE-CC39-4909-B287-A182C059CC7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fwhtcudalib", "fwhtcudalib\fwhtcudalib.vcxproj", "{D8BD863F-CD40-4789-9545-F0135FB155ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fwhtomplib", "fwhtomplib\fwhtomplib.vcxproj", "{54AA1EE9-ADBA-4420-9EBD-114EA4D334F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FAC7756F-D8BE-46E8-BD83-F6453180700D}"
+	ProjectSection(SolutionItems) = preProject
+		fwhtusage.docx = fwhtusage.docx
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exampleomp", "exampleomp\exampleomp.vcxproj", "{F9AE9C28-4C69-41B1-B39D-64B76FFB9DE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rand_function_hack", "rand_function_hack\rand_function_hack.vcxproj", "{AD7A8EDE-67EE-4C90-B423-A6AE7342EFD8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = example\\example.vcxproj
+		SccProjectName1 = example
+		SccLocalPath1 = example
+		SccProjectUniqueName2 = examplecuda\\examplecuda.vcxproj
+		SccProjectName2 = examplecuda
+		SccLocalPath2 = examplecuda
+		SccProjectUniqueName3 = exampleomp\\exampleomp.vcxproj
+		SccProjectName3 = exampleomp
+		SccLocalPath3 = exampleomp
+		SccProjectUniqueName4 = fwhtcudalib\\fwhtcudalib.vcxproj
+		SccProjectName4 = fwhtcudalib
+		SccLocalPath4 = fwhtcudalib
+		SccProjectUniqueName5 = fwhtlib\\fwhtlib.vcxproj
+		SccProjectName5 = fwhtlib
+		SccLocalPath5 = fwhtlib
+		SccProjectUniqueName6 = fwhtomplib\\fwhtomplib.vcxproj
+		SccProjectName6 = fwhtomplib
+		SccLocalPath6 = fwhtomplib
+		SccProjectUniqueName7 = rand_function_hack\\rand_function_hack.vcxproj
+		SccProjectName7 = rand_function_hack
+		SccLocalPath7 = rand_function_hack
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A721B49E-10C4-4BDB-95C0-E7B6CAF6DB3C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A721B49E-10C4-4BDB-95C0-E7B6CAF6DB3C}.Debug|Win32.Build.0 = Debug|Win32
+		{A721B49E-10C4-4BDB-95C0-E7B6CAF6DB3C}.Release|Win32.ActiveCfg = Release|Win32
+		{A721B49E-10C4-4BDB-95C0-E7B6CAF6DB3C}.Release|Win32.Build.0 = Release|Win32
+		{90F8D0D0-8BEA-4C95-83C8-FB4FF3DE66F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{90F8D0D0-8BEA-4C95-83C8-FB4FF3DE66F2}.Debug|Win32.Build.0 = Debug|Win32
+		{90F8D0D0-8BEA-4C95-83C8-FB4FF3DE66F2}.Release|Win32.ActiveCfg = Release|Win32
+		{90F8D0D0-8BEA-4C95-83C8-FB4FF3DE66F2}.Release|Win32.Build.0 = Release|Win32
+		{60A1C0FE-CC39-4909-B287-A182C059CC7C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60A1C0FE-CC39-4909-B287-A182C059CC7C}.Debug|Win32.Build.0 = Debug|Win32
+		{60A1C0FE-CC39-4909-B287-A182C059CC7C}.Release|Win32.ActiveCfg = Release|Win32
+		{60A1C0FE-CC39-4909-B287-A182C059CC7C}.Release|Win32.Build.0 = Release|Win32
+		{D8BD863F-CD40-4789-9545-F0135FB155ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8BD863F-CD40-4789-9545-F0135FB155ED}.Debug|Win32.Build.0 = Debug|Win32
+		{D8BD863F-CD40-4789-9545-F0135FB155ED}.Release|Win32.ActiveCfg = Release|Win32
+		{D8BD863F-CD40-4789-9545-F0135FB155ED}.Release|Win32.Build.0 = Release|Win32
+		{54AA1EE9-ADBA-4420-9EBD-114EA4D334F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54AA1EE9-ADBA-4420-9EBD-114EA4D334F8}.Debug|Win32.Build.0 = Debug|Win32
+		{54AA1EE9-ADBA-4420-9EBD-114EA4D334F8}.Release|Win32.ActiveCfg = Release|Win32
+		{54AA1EE9-ADBA-4420-9EBD-114EA4D334F8}.Release|Win32.Build.0 = Release|Win32
+		{F9AE9C28-4C69-41B1-B39D-64B76FFB9DE1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9AE9C28-4C69-41B1-B39D-64B76FFB9DE1}.Debug|Win32.Build.0 = Debug|Win32
+		{F9AE9C28-4C69-41B1-B39D-64B76FFB9DE1}.Release|Win32.ActiveCfg = Release|Win32
+		{F9AE9C28-4C69-41B1-B39D-64B76FFB9DE1}.Release|Win32.Build.0 = Release|Win32
+		{AD7A8EDE-67EE-4C90-B423-A6AE7342EFD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD7A8EDE-67EE-4C90-B423-A6AE7342EFD8}.Debug|Win32.Build.0 = Debug|Win32
+		{AD7A8EDE-67EE-4C90-B423-A6AE7342EFD8}.Release|Win32.ActiveCfg = Release|Win32
+		{AD7A8EDE-67EE-4C90-B423-A6AE7342EFD8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
